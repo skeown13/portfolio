@@ -6,6 +6,10 @@
   background-image: url(./../images/bgBackground.jpg);
 }
 
+#bodyContact {
+  background-image: url(./../images/bg12.jpg);
+}
+
 .aboutMeInfo {
   background-color: white;
 }

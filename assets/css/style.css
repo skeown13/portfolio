@@ -2,6 +2,10 @@
   background-image: url(./../images/bgAbout.jpg);
 }
 
+#bodyBackground {
+  background-image: url(./../images/bg18.jpg);
+}
+
 #aboutMe {
   background-color: white;
 }

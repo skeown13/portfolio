@@ -12,10 +12,25 @@
 
 .navbar, .footer {
   opacity: 0.75;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  z-index: 9999;
 }
+
+div.dropdown-menu {
+  background-color: rgba(192, 192, 192, 1.0);
+  /* opacity: 1.0; */
+  /* background-color:darkviolet !important; */
+  /* position: relative; */
+  /* z-index: 400000000 !important; */
+}
+
+/* .dropdown-menu {
+  opacity: 1.0;
+} */
 
 .aboutMeInfo {
   background-color: white;
+  opacity: 0.90;
 }
 
 footer {

@@ -1,5 +1,5 @@
 #bodyAbout {
-  background-image: url(./../images/bgAbout.jpg);
+  background: url(./../images/bgAbout.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 

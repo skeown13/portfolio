@@ -4,11 +4,13 @@
 }
 
 #bodyBackground {
-  background-image: url(./../images/bgBackground.jpg);
+  background-image: url(./../images/bgBackground.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 #bodyContact {
-  background-image: url(./../images/bgContact.jpg);
+  background-image: url(./../images/bgContact.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 #aboutMeContact {

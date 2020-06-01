@@ -13,8 +13,11 @@
   background-size: cover;
 }
 
-#aboutMeContact {
-  width: 50%;
+.aboutMeInfo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .navbar, .footer {

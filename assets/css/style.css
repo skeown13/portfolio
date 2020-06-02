@@ -8,6 +8,11 @@
   background-size: cover;
 }
 
+#bodyTechSkills {
+  background: url(./../images/bg11.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 #bodyContact {
   background: url(./../images/bgContact.jpg) no-repeat center center fixed;
   background-size: cover;

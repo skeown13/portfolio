@@ -44,7 +44,7 @@ div.dropdown-menu, .aboutMeInfo {
 .skillsThumbnails-img:hover {
   position: relative;
   transform: scale(1.5);
-  z-index: 999;
+  /* z-index: 999; */
 }
 
 /* This sticky class will be needed later on when I implement a sidebar on most pages that has contact information on it. Specifically a link for my resume and to email me. This allows for that sidebar to scroll down the page when the user scrolls so that it is always visible. */
@@ -58,4 +58,87 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+  max-width: 100%;
+  /* transform: scale(1.5); */
+}
+.hvrbox .hvrbox-layer_bottom {
+  display: block;
+  /* transform: scale(1.5); */
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	/* padding: 15px; */
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+  opacity: 1;
+  /* transform: scale(1.5); */
+}
+
+.hvrbox .hvrbox-layer_scale {
+	border-radius: 50%;
+	-moz-transform: scale(0);
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+}
+
+.hvrbox:hover .hvrbox-layer_scale,
+.hvrbox.active .hvrbox-layer_scale {
+	border-radius: 0%;
+	/* -moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1); */
+	transform: scale(1);
+}
+
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
 }

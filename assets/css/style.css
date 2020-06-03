@@ -38,7 +38,7 @@ div.dropdown-menu, .aboutMeInfo {
 .skillsThumbnails-img {
   max-width: 100%;
   height: auto;
-  margin: 15px;
+  padding: 15px;
 }
 
 .skillsThumbnails-img:hover {

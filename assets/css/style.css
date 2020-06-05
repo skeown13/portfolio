@@ -1,3 +1,7 @@
+h1 {
+  font-family: 'Merienda', cursive, Helvetica, Arial, sans-serif;
+}
+
 #bodyAbout {
   background: url(./../images/bgAbout.jpg) no-repeat center center fixed;
   background-size: cover;

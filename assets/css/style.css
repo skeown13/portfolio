@@ -53,10 +53,10 @@ div.dropdown-menu, .aboutMeInfo {
   padding: 15px;
 }
 
-.skillsThumbnails-img:hover {
+/* .skillsThumbnails-img:hover {
   position: relative;
   transform: scale(1.5);
-}
+} */
 
 /* This sticky class will be needed later on when I implement a sidebar on most pages that has contact information on it. Specifically a link for my resume and to email me. This allows for that sidebar to scroll down the page when the user scrolls so that it is always visible. */
 /* .sticky {

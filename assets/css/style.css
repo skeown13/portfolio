@@ -10,6 +10,14 @@ p {
   font-family: 'Courgette', cursive, Helvetica, Arial, sans-serif;
 }
 
+p.pExp {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.workExpTitle {
+  font-family: 'Satisfy', cursive, Helvetica, Arial, sans-serif;
+}
+
 #bodyAbout {
   background: url(./../images/bgAbout.jpg) no-repeat center center fixed;
   background-size: cover;
